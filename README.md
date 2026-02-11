@@ -61,23 +61,23 @@ Spam-Detector/
 
 🧠 How It Works
 
-User enters a message in the input field.
+* User enters a message in the input field.
 
-Text is preprocessed:
+* Text is preprocessed:
 
-Converted to lowercase
+* Converted to lowercase
 
-Punctuation removed
+* Punctuation removed
 
-TF-IDF converts text into numerical feature vectors.
+* TF-IDF converts text into numerical feature vectors.
 
-The trained Naive Bayes model predicts:
+* The trained Naive Bayes model predicts:
 
-SPAM 🚫
+* SPAM 🚫
 
-HAM ✅
+* HAM ✅
 
-The result is displayed with probability confidence.
+* The result is displayed with probability confidence.
 
 ---
 
