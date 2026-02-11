@@ -82,23 +82,30 @@ The result is displayed with probability confidence.
 ---
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/spam-detector.git
 cd spam-detector
 ```
+
+
 2️⃣ Install Dependencies
 ```bash
 pip install numpy pandas scikit-learn
 ```
 
-3️⃣ Add Model Files
 
-Ensure the following files are placed inside the spam_model/ directory:
+3️⃣ Ensure Model Files Exist
 
-model.pkl
+Place inside:
+```bash
+spam_model/
+```
 
-tfidf.pkl
+* model.pkl
+* tfidf.pkl
+
 
 4️⃣ Run the Application
 ```bash
@@ -107,41 +114,30 @@ python Spam.py
 
 ---
 
-📸 Application Output
+## 📸 Application Output
 
-Displays SPAM (Probability%) in red
-
-Displays HAM (Probability%) in green
-
-Shows model loading status
+* 🚫 Displays **SPAM (Probability%)** in red
+* ✅ Displays **HAM (Probability%)** in green
+* ℹ️ Shows model loading status
 
 ---
 
-🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
-This project demonstrates:
-
-Practical implementation of Natural Language Processing
-
-Training & loading ML models
-
-Real-world spam filtering logic
-
-GUI development using Tkinter
-
-Clean separation between model logic and interface
+* 🧠 Practical implementation of **Natural Language Processing (NLP)**
+* 🤖 Training and loading **Machine Learning models**
+* 📩 Real-world **spam filtering logic**
+* 🖥 GUI development using **Tkinter**
+* 🧩 Clean separation between model logic and user interface
 
 ---
 
-📌 Future Improvements
+## 📌 Future Improvements
 
-Add model training module inside the app
+* 🔄 Add model training module inside the application
+* 📁 Add dataset upload feature
+* 🧪 Improve preprocessing with stemming and lemmatization
+* 🌙 Add dark/light theme toggle
+* 🌐 Convert to web version using **Flask** or **FastAPI**
 
-Add dataset upload feature
-
-Improve preprocessing with stemming/lemmatization
-
-Add dark/light theme toggle
-
-Convert to web version using Flask or FastAPI
 
